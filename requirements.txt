@@ -1,0 +1,4 @@
+# jupyter is only needed if you are using the '.qmd' file
+# jupyter
+lightkurve
+numpy
