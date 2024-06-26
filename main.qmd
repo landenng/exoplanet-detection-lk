@@ -1,0 +1,23 @@
+---
+title: Exoplanet Detection With Lightcurves
+format: html
+---
+
+## Download and Unzip Star Data
+
+``` {python}
+from urllib.request import urlopen
+from io import BytesIO
+from zipfile import ZipFile
+
+def download_and_unzip(url: str, dest: str = '.'):
+    http_response = urlopen(url)
+    zipfile = ZipFile(BytesIO(http_response.read()))
+    zipfile.extractall(path = dest)
+
+product_group_id = ''
+url = '' + product_group_id
+dest = '/data/'
+
+# download_and_unzip(url, dest)
+```

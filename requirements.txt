@@ -1,4 +1,4 @@
-# jupyter is only needed if you are using the '.qmd' file
+# jupyter is only needed if you are using the '.qmd' file and Quarto
 # jupyter
 lightkurve
 numpy
