@@ -19,5 +19,6 @@ product_group_id = ''
 url = '' + product_group_id
 dest = '/data/'
 
+# only uncomment when using a new url
 # download_and_unzip(url, dest)
 ```
